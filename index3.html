@@ -176,9 +176,13 @@
         });
     }
 
+    // Автоматическая проверка каждые 30 секунд
+    setInterval(checkSoonAppointments, 30000); // 30000 мс = 30 секунд
+
     // Проверка при загрузке страницы
     window.onload = checkSoonAppointments;
 </script>
 
 </body>
 </html>
+
